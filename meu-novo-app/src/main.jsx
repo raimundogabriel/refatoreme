@@ -4,11 +4,10 @@ import './index.css'
 import Header from './components/header/Header'
 import Principal from './components/principal/Principal'
 import Footer from './components/footer/Footer'
+import Home from './pages/Home'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Header />
-    <Principal />
-    <Footer />
+   <Home />
   </StrictMode>,
 )
