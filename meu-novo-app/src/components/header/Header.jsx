@@ -9,9 +9,9 @@ function Header() {
                 <nav>
                     <h1>TechNova</h1>
                     <ul>
-                        <li><Link path="/">Início</Link></li>
-                        <li><Link path="/servicos">Serviços</Link></li>
-                        <li><Link path="/contato">Contato</Link></li>
+                        <li><Link to="/">Início</Link></li>
+                        <li><Link to="/servicos">Serviços</Link></li>
+                        <li><Link to="/contato">Contato</Link></li>
                     </ul>
                 </nav>
             </header>

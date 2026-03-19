@@ -1,0 +1,28 @@
+.servicos-page {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto; /* Centraliza a página na tela */
+}
+
+.servicos-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.servicos-header h2 {
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 0.5rem;
+}
+
+.servicos-header p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.servicos-grid {
+    display: grid;
+    /* Isso cria um grid responsivo! Se a tela for pequena, fica 1 coluna. Se for grande, cria mais colunas automaticamente */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
