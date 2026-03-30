@@ -1,5 +1,6 @@
 import Banner from '../../components/principal/Banner';
 import Card from '../../components/principal/Card';
+import ChatEducacional from '../../components/principal/ChatEducacional';
 import './Home.css';
 
 function Home() {
@@ -48,6 +49,9 @@ function Home() {
                     ))}
                 </div>
             </section>
+            <div>
+                <ChatEducacional />
+            </div>
         </main>
     )
 }

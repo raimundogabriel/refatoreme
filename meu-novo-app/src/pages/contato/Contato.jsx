@@ -19,9 +19,6 @@ function Contato() {
     // Gerencia o estado e os erros do campo email 
     const [emailError, setEmailError] = useState('');
 
-
-
-
     const mascaraCPF = (valor) => {
         // 1. Remove tudo o que não é número (o \D significa "não-dígito")
         let cpfLimpo = valor.replace(/\D/g, "");
