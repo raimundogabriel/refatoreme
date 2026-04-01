@@ -5,7 +5,6 @@ import Card from './components/Card'
 import './App.css' 
 
 function App() {
-  // Dados dinâmicos para os cards (o que antes estava no seu script.js)
   const especialidades = [
     { id: 1, titulo: "Desenvolvimento Web", descricao: "Criação de sites modernos com React." },
     { id: 2, titulo: "Arquitetura Cloud", descricao: "Soluções escaláveis na nuvem." },
