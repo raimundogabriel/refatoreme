@@ -35,7 +35,7 @@ const ChatEducacional = () => {
           'Content-Type': 'application/json',
           // ATENÇÃO: Em produção, nunca exponha sua chave no front! 
           // Mas para fins educacionais em localhost, pode usar:
-          'Authorization': `Bearer CHAVE_API_GROQ`
+          'Authorization': `Bearer ${import.meta.env.VITE_CHAVE_API_GROQ}`
         },
         body: JSON.stringify({
           model: "llama-3.3-70b-versatile", // Um dos melhores modelos gratuitos
