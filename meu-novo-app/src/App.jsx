@@ -9,8 +9,8 @@ function App() {
       <Header /> 
       
       <main>
-        <Card titulo="Meu Primeiro Projeto" descricao="Refatoração concluída!" />
-        <Card titulo="Docker" descricao="Configurado com sucesso." />
+        <Card titulo="Projeto FrontEnd" descricao="concluída!" />
+        <Card titulo="SENAI" descricao="sucesso." />
       </main>
 
       <Footer /> 
