@@ -1,0 +1,32 @@
+/* Estilos Globais */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+main { flex: 1; width: 100%; max-width: 1000px; margin: 0 auto; padding: 20px; }
+
+/* Header */
+.header-container { background: linear-gradient(135deg, #1a1a1a 0%, #2c3e50 100%); padding: 15px 0; border-bottom: 2px solid #007bff; }
+.header-content { max-width: 800px; margin: 0 auto; text-align: center; }
+.header-content h1 span { color: #007bff; }
+.header-content ul { display: flex; justify-content: flex-start; gap: 25px; list-style: none; padding: 0; margin-top: 20px; font-weight: bold; }
+.header-content a { color: white; text-decoration: none; font-size: 0.8rem; }
+.header-content a[href="#ead-futuro"] { color: #007bff; }
+
+/* Cards EAD e Futuro */
+.info-container { display: flex; gap: 15px; flex-wrap: wrap; padding: 30px 0; border-top: 1px solid #333; }
+.info-card { background: #2c3e50; padding: 20px; border-radius: 12px; border: 1px solid #007bff; flex: 1; min-width: 250px; text-align: center; }
+
+/* Planos */
+.pricing-section { padding: 40px 0; text-align: center; }
+.plans-container { display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; }
+.plan-card { background: #2c3e50; padding: 20px; border-radius: 12px; border: 1px solid #444; flex: 1; min-width: 250px; }
+.plan-card.featured { border: 2px solid #007bff; background: #34495e; }
+
+/* Footer */
+.footer-container { background: #111; color: gray; padding: 30px; text-align: center; border-top: 1px solid #333; }
+.footer-tags { margin-top: 10px; display: flex; justify-content: center; gap: 15px; color: #007bff; }
