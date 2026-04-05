@@ -10,11 +10,14 @@ function App() {
       <Header /> 
       
       <main>
-        <Card titulo="EFS" descricao="" />
-        <Card titulo="Ligação com o Futuro." descricao="" />
-        
-        <h2 style={{ textAlign: 'center' }}>Nossos Planos</h2>
-        <Pricing /> {/* 2. Coloque aqui */}
+        <h2>Nossos Projetos</h2>
+        <div className="card-container">
+          <Card titulo="EAD" descricao="Educação a distância com metodologia prática, focada nas habilidades que o mercado de trabalho realmente exige hoje." />
+          <Card titulo="Ligação com o Futuro" descricao="Sua ponte direta para o sucesso profissional com educação de ponta e visão estratégica." />
+        </div>
+
+        <h2>Nossos Planos</h2>
+        <Pricing />
       </main>
 
       <Footer /> 
@@ -22,4 +25,4 @@ function App() {
   )
 }
 
-export default App
+export default App 
