@@ -1,4 +1,5 @@
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 
 function Header() {
@@ -7,9 +8,9 @@ function Header() {
             <nav>
                 <h1>TechNova</h1>
                 <ul>
-                    <li><a href="#home">Início</a></li>
-                    <li><a href="#services">Serviços</a></li>
-                    <li><a href="#contact">Contato</a></li>
+                    <li><Link to="/">Início</Link></li>
+                    <li><Link to="/servico">Serviços</Link></li>
+                    <li><Link to="/contato">Contato</Link></li>
                 </ul>
             </nav>
         </header>

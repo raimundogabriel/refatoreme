@@ -1,17 +1,27 @@
 import { useState } from 'react'
-import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
+
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Principal from './components/principal/Principal'
+
+import Home from './pages/home/Home'
+import Servico from './pages/servico/Servico'
+import Contato from './pages/contato/Contato'
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Header />
-      <Principal />
-      <Footer />
-    </>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/servico' element={<Servico />} />
+          <Route path='/contato' element={<Contato />} />
+        </Routes>
+        <Footer />
+      </Router>
   )
 }
 

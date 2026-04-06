@@ -1,8 +1,8 @@
-import Banner from "./Banner"
-import Card from "./Card";
-import './Principal.css';
+import './Home.css'
+import Banner from '../../components/principal/Banner';
+import Card from '../../components/principal/Card';
 
-function Principal() {
+function Home(){
     const servicesData = [
         {
             id: 1,
@@ -44,4 +44,5 @@ function Principal() {
         </main>
     )
 }
-export default Principal;
+
+export default Home;
