@@ -1,0 +1,92 @@
+.contato-page {
+    padding: 4rem 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contato-container {
+    display: flex;
+    gap: 4rem;
+    background-color: #ffffff;
+    padding: 3rem;
+    border-radius: 8px;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.contato-info {
+    flex: 1;
+}
+
+.contato-info h2 {
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 1rem;
+}
+
+.contato-info p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.contato-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #0056b3;
+}
+
+.submit-btn {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: background-color 0.2s ease;
+    margin-top: 0.5rem;
+}
+
+.submit-btn:hover {
+    background-color: #004494;
+}
+
+/* Responsividade para celulares e tablets */
+@media (max-width: 768px) {
+    .contato-container {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem;
+    }
+}

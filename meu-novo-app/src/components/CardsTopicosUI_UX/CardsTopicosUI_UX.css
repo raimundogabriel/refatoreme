@@ -1,0 +1,81 @@
+
+
+.ContainerCards {
+    display: flex;
+    justify-content: left;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    max-width: 347px;
+    justify-content: left;
+    margin: 0px 17px 0px 0px;
+    gap: 9px;
+    scrollbar-width: none;
+    padding: 16px 0px;
+}
+
+.Card {
+    width: 22rem;
+    padding: 17px 17px 19px;
+    background-color: white;
+    margin: 0px 0px 33px 14px;
+    border-radius: 18px;
+    transition: 0.4s ease;
+    border: 1px solid rgb(185, 185, 185);
+    box-shadow: 1px 1px 10px #0000001f;
+}
+
+.Card:hover {
+    scale: calc(1.02);
+    transition: 0.4s all ease; 
+    border: 1px solid rgba(34, 63, 180, 0.797);
+}
+
+.ContainerImg {
+    background-image: radial-gradient(circle at top left, rgba(195, 206, 255, 0.771), 
+rgba(34, 63, 180, 0.797),
+  rgb(158, 161, 206) 
+  );
+    padding: 0px 0px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ImgCard {
+    width: 200px;
+    height: 235px;
+}
+
+.ContainerTextoCard {
+    padding: 27px 5px;
+}
+
+.TituloCard {
+    color: rgb(0, 51, 102);
+    font-family: 'Miranda Sans';
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.ParagrafoCard {
+    padding: 10px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 282px;
+
+}
+
+@media(min-width: 754px) {
+
+    .ContainerCards {
+        max-width: 714px;
+        gap: 30px;
+        
+    }
+
+    .Card {
+        width: 20rem;
+
+    }
+    
+}

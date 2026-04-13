@@ -16,13 +16,23 @@ function Home(){
         },
         {
             id: 3,
-            title: "IA & Game Dev",
+            title: "Game Dev",
             description: "Desenvolvimento de jogos integrados com algoritmos de Inteligência Artificial."
         },
         {
             id: 4,
             title: "Engenharia de Dados",
             description: "Estruturação de dashboards em Power BI e modelagem de dados para tomada de decisão."
+        },
+        {
+            id:5,
+            title: "Inteligência Artificial",
+            description: "Projetos focados em aprendizado de maquina e LLMs."
+        },
+        {
+            id:6,
+            title: "Gerênciamento de Projetos",
+            description: "Consultoria especializada em análise, desenvolvimento e acompanhamento de resultados de projetos."
         }
     ];
     return (

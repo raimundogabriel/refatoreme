@@ -1,0 +1,154 @@
+.gamedev-section {
+  background-color: #0a0a0a; 
+  padding: 80px 20px;
+  color: white;
+  width: 100%;
+  margin-top: -2px; 
+  font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+.gamedev-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gamedev-header h2 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.highlight { 
+  color: #00ff88; 
+  text-shadow: 0 0 15px rgba(0, 255, 136, 0.6);
+  cursor: pointer;
+}
+
+.highlight:hover {
+  animation: glitch 0.3s infinite;
+  text-shadow: 2px 0 #ff00c1, -2px 0 #00fff9;
+}
+
+.gamedev-grid-mini {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.mini-card {
+  background: rgba(255, 255, 255, 0.02);
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 255, 136, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.mini-card:hover {
+  transform: translateY(-10px);
+  background: rgba(0, 255, 136, 0.05);
+  border-color: #00ff88;
+  box-shadow: 0 10px 30px rgba(0, 255, 136, 0.1);
+}
+
+.mini-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.mini-card h4 {
+  color: #00ff88;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.mini-card p {
+  color: #aaa;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.skill-container {
+  text-align: left;
+}
+
+.skill-label {
+  font-size: 0.7rem;
+  color: #00ff88;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.skill-bar {
+  width: 100%;
+  background: #222;
+  height: 6px;
+  border-radius: 3px;
+}
+
+.skill-progress {
+  height: 100%;
+  background: #fbff00;
+  box-shadow: 0 0 10px #e4d54e;
+  border-radius: 3px;
+}
+
+.gamedev-footer {
+  margin-top: 50px;
+  font-size: 0.8rem;
+  color: #444;
+}
+
+.neon-text {
+  color: #00ff88;
+  animation: blink 1.5s infinite;
+}
+
+@keyframes glitch {
+  0% { transform: translate(0); }
+  25% { transform: translate(-2px, 2px); }
+  50% { transform: translate(2px, -2px); }
+  75% { transform: translate(-2px, -2px); }
+  100% { transform: translate(0); }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+@media (max-width: 768px) {
+  .gamedev-header h2 { font-size: 2rem; }
+}
+
+.gamedev-sales-pitch {
+  margin-top: 60px;
+  padding: 40px;
+  background: linear-gradient(145deg, #111, #000);
+  border-radius: 20px;
+  border: 1px solid #00ff88;
+}
+
+.btn-venda {
+  background: #00ff88;
+  color: #000;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.4);
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+
+.btn-venda-hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px #00ff88;
+}
