@@ -2,7 +2,7 @@ import './Home.css'
 import Banner from '../../components/principal/Banner';
 import Card from '../../components/principal/Card';
 import React, { useState, useEffect } from 'react';
-
+import Maps from '../../components/Maps';
 
 function Home() {
     const [characters, setCharacters] = useState([]);
@@ -91,6 +91,9 @@ function Home() {
                         <li key={index}>{person.name}</li>
                     ))}
                 </ul>
+            </div>
+            <div>
+                <Maps />
             </div>
         </main>
     )
