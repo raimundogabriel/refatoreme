@@ -1,4 +1,3 @@
-/* Banner Principal */
 .banner {
     background: linear-gradient(135deg, #00509e, #003366);
     color: white;
@@ -11,7 +10,7 @@
     margin-bottom: 1rem;
 }
 
-#cta-btn {
+.cta-btn {
     padding: 0.8rem 2rem;
     font-size: 1rem;
     background-color: #ffcc00;

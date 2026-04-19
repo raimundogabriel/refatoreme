@@ -10,3 +10,12 @@ body {
     color: #333;
     background-color: #f4f7f6;
 }
+@media (max-width: 600px) {
+    .main {
+        padding: 1rem;
+    }
+
+    .servico {
+        padding: 2rem;
+    }
+}
